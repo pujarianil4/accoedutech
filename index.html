@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccoEdutech</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+      .container{
+        display: flex;
+        height: 99vh;
+        justify-content: space-between;
+        align-items: center;
+        overflow-x: hidden;
+
+      }
+      .logo_div{
+        margin-top: 50px;
+        margin-left: 10px;
+        position: relative;
+      }
+      .logo{
+        position: absolute;
+        width: 200px;
+        left: 75px;
+        top: 110px;
+        border-radius: 50%;
+      }
+      .girl{
+        width: 170px;
+        margin-right: 50px;
+       height: 550px;
+       margin-top: 80px;
+      }
+      h1{
+        font-size: 65px;
+        text-align: center;
+      }
+      button{
+        padding: 10px;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        font-weight: 700;
+        border: 0px;
+        margin: auto;
+        cursor: pointer;
+        position: relative;
+        border: 1px solid blue;
+      }
+      button:hover{
+        background-color: white;
+        color: blue;
+        border: 1px solid blue;
+      }
+      .content{
+        align-items: center;
+       height: 400px;
+        display: flex;
+        flex-direction: column;
+      }
+      .social{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 50px;
+        width: 100%;
+      }
+      .social_icon{
+        width: 100px;
+        cursor: pointer;
+        position: relative;
+      }
+      .social_icon:hover{
+        transform: scale(1.5);
+        transition: transform 0.2s ease-in-out;
+      }
+      p{
+        color: gray;
+      }
+
+      @media (max-width: 600px) {
+         .container{
+            flex-direction: column;
+           
+            width: 100%;
+         }
+         .logo_div{
+            width: 70%;
+            margin: 50px;
+         }
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo_div">
+            <img class="boy" src="./boy.png" alt="">
+            <img class="logo" src="./logo2.png" alt="">
+        </div>
+        <div class="content">
+            <h1>COMMING SOON</h1>
+            <p>Join Our Discord Community</p>
+           <a href="https://discord.gg/YEBMaWhhQk"> <button>JOIN DISCORD</button></a>
+          
+            <div class="social">
+                <a href="https://www.facebook.com/accoedutech/"> <img class="social_icon" src="./fb.png" alt=""> </a>
+                <a href="https://instagram.com/accoedutech?igshid=YmMyMTA2M2Y="><img class="social_icon" src="./insta.png" alt=""></a>
+                <a href="https://www.linkedin.com/company/accoedutech/"> <img  class="social_icon" src="./linkdin.png" alt=""> </a>
+            </div>
+        </div>
+       
+         <img class="girl" src="./girl.png" alt="">
+    </div>
+</body>
+</html>
